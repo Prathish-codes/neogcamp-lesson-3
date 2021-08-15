@@ -3,22 +3,22 @@
 
 body {
     font-family:'Yanone Kaffeesatz', sans-serif;
-    background-color: black;
-    color: brown;
+    background-color:white;
+    color: br;
 
 
 }
 .testdiv{
     font-size: 40px;
-    border-color: black;
-    border-width: 5px;
+    border-color: red;
+    border-width: 20px;
+    color: tomato;
     
     text-align: center;
 }
 /** container **/
  .container {
-     padding-left: 1rem;
-     padding-right: 1rem;
+     padding-left: orem 1rem;
  }
 
  .container-center{
@@ -34,6 +34,25 @@ body {
      background-color: var
      (--primary-color);
      border-radius:0.5rem;
-     colour:white
+     color:white
     
+ }
+
+ /** links **/
+ .links{
+     text-decoration: ;
+     padding:0.5rem 1rem
+ }
+
+ .primary-link{
+     background-color:var
+     (--primary-color);
+     border-radius:0.5rem ;
+     color:white;
+ }
+ 
+ .secondary-link{
+     color:var(--primary-color;
+     border-radius:0.5rem;
+     border: qpx solid var
  }
