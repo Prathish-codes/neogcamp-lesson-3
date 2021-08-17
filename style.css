@@ -37,12 +37,16 @@ hr{
 .link{
     text-decoration: white;
     padding:0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+     text-align:center ;
 }
 
 .link-secondary{
@@ -51,6 +55,9 @@ hr{
     border: 1px
     solid var(--primary-color)
 
+}
+.link-active{
+    font-size:larger ;
 }
 
 /****lists***/
@@ -79,10 +86,10 @@ hr{
 }
 
 .navigation .nav-brand{
-    font-weight:bolder;
+    font-weight:bold;
 }
 
-.navigation.nav-pills{
+.navigation .nav-pills{
     text-align:center;
 }
 
@@ -93,11 +100,17 @@ hr{
 .navigation .link-active{
     font:3rem;
 }
+.list-non-bullet .nav-pills{
+    text-align:center ;
+}
+
+
 
 
 /****hero*******/
 .hero{
     padding:2rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img{
@@ -122,7 +135,7 @@ hr{
     padding:2rem;
 }
 
-.section h1{
+.section h3{
     text-align: center;
 }
 
@@ -145,4 +158,9 @@ hr{
 
 .footer .link{
     color:white;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bolder;
 }
