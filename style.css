@@ -5,6 +5,14 @@ body{
      sans-serif;
 }
 
+:root {
+    ---primary-color:#6C63FF;
+}
+
+hr{
+    margin:2rem 0rem;
+}
+
 
 /******container*******/
 
@@ -17,3 +25,31 @@ body{
     max-width:600px;
     margin:auto;
 }
+
+hr{
+    margin: 1 rem 0rem;
+
+}
+
+/**links**/
+
+.link{
+    text-decoration: white;
+    padding:0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(---primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color:var(---primary-color);
+    border-radius:0.5rem;
+    border: 1px
+    solid var(---primary-color)
+
+}
+
+
