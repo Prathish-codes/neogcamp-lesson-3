@@ -3,6 +3,7 @@
 body{
     font-family: 'Montserrat',
      sans-serif;
+    margin:0rem; 
 }
 
 :root {
@@ -100,6 +101,7 @@ hr{
 }
 
 .hero .hero-img{
+    margin:center;
     max-width: 360px;
     margin: auto;
     display: block;
@@ -129,3 +131,18 @@ hr{
     background-color: var(--off-white);
 }
 
+
+/***footer****/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align:center;
+    color: white;
+    border-bottom-left-radius: 3rem;
+}
+
+
+.footer .link{
+    color:white;
+}
