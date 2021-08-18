@@ -149,18 +149,25 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align:center;
     color: white;
-    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 3rem;
 }
 
 
 .footer .link{
     color:white;
+
 }
 
 .footer .footer-header{
     font-size: large;
     font-weight: bolder;
+}
+
+.connecter{
+    text-align: center;
+    color: var(--grey-color);
+
 }
